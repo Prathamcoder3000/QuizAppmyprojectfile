@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".ScoreActivity">
+
+   <TextView
+       android:id="@+id/scoretext"
+       android:layout_width="match_parent"
+       android:layout_height="130dp"
+       android:textSize="27sp"
+       android:padding="2dp"
+       android:fontFamily="@font/adamina"
+       android:textStyle="bold"
+       android:layout_marginTop="190dp"
+       android:gravity="center|top"
+       android:text="Your score: 0"
+       android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:textSize="22sp"
+        android:padding="2dp"
+        android:fontFamily="@font/adamina"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:gravity="center|top"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/restartbutton"
+        android:layout_width="248dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="89dp"
+        android:fontFamily="@font/adamina"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:text=" Restart Quiz "
+        android:textSize="20dp" />
+</RelativeLayout>

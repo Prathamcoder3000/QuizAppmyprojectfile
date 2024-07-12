@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/text_user"
+        android:layout_width="370dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/adamina"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonnew"
+        android:layout_width="240dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="12dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/adamina"
+        android:textColor="@color/white"
+        android:text=" Click to start "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

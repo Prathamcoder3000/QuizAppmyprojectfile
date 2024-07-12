@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/img">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="126dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:padding="7dp"
+        android:src="@drawable/logonew" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="QUIZTO"
+        android:layout_marginTop="7dp"
+        android:textColor="#5b39c6"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/adamina"
+        android:layout_marginLeft="15dp"
+        android:text="(Let Test the Java Knowledge)"
+        android:textColor="#0009ff"
+
+        android:textSize="21.5dp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+</LinearLayout>

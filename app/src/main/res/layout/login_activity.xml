@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Quizto Login"
+        android:layout_marginTop="170dp"
+        android:textColor="#5b39c6"
+        android:textSize="33dp"
+        android:fontFamily="@font/adamina"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/emaillogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/name"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/adamina"
+        android:layout_marginTop="40dp"
+        android:hint="Enter Your UserName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/passlogin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/lock1"
+        android:fontFamily="@font/adamina"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/text_forgot"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center_horizontal"
+        android:text="Forgot Password.?"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/adamina"
+        android:text=" Login "
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/registerredirect"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:text="Doesn't have  Account.?Sign up"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="16sp" />
+
+</LinearLayout>
